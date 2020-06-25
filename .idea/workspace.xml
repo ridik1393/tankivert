@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b166640-f447-419d-a7a9-473d7f05481d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Main/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +57,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593088713011</updated>
-      <workItem from="1593088714161" duration="3494000" />
+      <workItem from="1593088714161" duration="4235000" />
     </task>
+    <task id="LOCAL-00001" summary="add page">
+      <created>1593092244698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593092244698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="536" y="87" key="CommitChangelistDialog2" timestamp="1593092244600">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="536" y="87" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1593092244600" />
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2" timestamp="1593092558198">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1593092558198" />
   </component>
 </project>

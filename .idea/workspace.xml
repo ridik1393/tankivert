@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b166640-f447-419d-a7a9-473d7f05481d" name="Default Changelist" comment="add github action, deploy on pushing in master">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/gatsby.yml" afterDir="false" />
+    <list default="true" id="0b166640-f447-419d-a7a9-473d7f05481d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gatsby.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gatsby.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main/Main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
       <workItem from="1593088714161" duration="5524000" />
       <workItem from="1593363357872" duration="17000" />
       <workItem from="1593408874128" duration="1921000" />
-      <workItem from="1593688012310" duration="2021000" />
+      <workItem from="1593688012310" duration="2812000" />
     </task>
     <task id="LOCAL-00001" summary="add page">
       <created>1593092244698</created>
@@ -78,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593093284834</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add github action, deploy on pushing in master">
+      <created>1593696672247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593696672247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,21 +91,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add page" />
     <MESSAGE value="add nojekyll" />
-    <option name="LAST_COMMIT_MESSAGE" value="add nojekyll" />
+    <MESSAGE value="add github action, deploy on pushing in master" />
+    <option name="LAST_COMMIT_MESSAGE" value="add github action, deploy on pushing in master" />
   </component>
   <component name="WindowStateProjectService">
     <state x="699" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593093266023">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
     <state x="699" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056@65.24.1855.1056" timestamp="1593093266023" />
-    <state x="536" y="87" key="CommitChangelistDialog2" timestamp="1593696478216">
+    <state x="536" y="87" key="CommitChangelistDialog2" timestamp="1593696672210">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="536" y="87" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1593696478216" />
-    <state x="592" y="261" key="Vcs.Push.Dialog.v2" timestamp="1593093285622">
+    <state x="536" y="87" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1593696672210" />
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2" timestamp="1593696744427">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="592" y="261" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1593093285622" />
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1593696744427" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

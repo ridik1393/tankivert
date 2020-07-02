@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Танки WOT`,
+    description: `Чем круче и навороченнее твой танк, тем выше шанс победы на поле боя. Ты готов получить лучший танк?`,
+    author: `ridik`,
   },
   plugins: [
     `gatsby-plugin-sass`,

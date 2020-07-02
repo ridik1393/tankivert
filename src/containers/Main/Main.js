@@ -1,13 +1,27 @@
-import React from "react"
+import React, {useEffect} from "react"
 import './style.scss';
 import LogoImage from '../../images/logo.png';
 import {Link} from "gatsby";
 
 
+async function test() {
+    let res = await fetch('https://ru.wargaming.net/id/signin/challenge/?type=pow', {
+        mode: 'no-cors', // no-cors, *cors, same-origin
+        cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+        credentials: 'same-origin', // include, *same-origin, omit
+    });
+    let txt = await res.text();
+    console.log('r', txt);
+    let k = 5;
+}
 
 const Main = (props) => {
+    useEffect(() => {
+        //test();
+    }, [])
     let cloak = false;
-    const url = cloak ? "https://wotsunduk.info" : 'https://ru.wargaming.net/shop/wot/vehicles/';
+    let url = cloak ? "https://wotsunduk.info/?utm_source=yandex&utm_medium=cpc&utm_campaign=yawhp" : 'https://ru.wargaming.net/shop/wot/vehicles/';
+    url = 'https://api.worldoftanks.ru/wot/auth/login/?application_id=57f033308131f5679e2eef9dd0f0f307&redirect_uri=wotsunduk.ru/auth/wg/api/return';
     return (
         <div className='main'>
             <div className="main__logo">
@@ -18,7 +32,7 @@ const Main = (props) => {
                 Чем круче и навороченнее твой танк, тем выше шанс победы на поле боя. Ты готов получить лучший танк?
             </div>
             <div className="main__footer">
-                <Link to={url} className='btn btn-accent btn-lg' role='button'>Купить танк</Link>
+                <a href={url} className='btn btn-accent btn-lg' role='button'>Купить танк</a>
             </div>
         </div>
     )

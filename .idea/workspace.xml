@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b166640-f447-419d-a7a9-473d7f05481d" name="Default Changelist" comment="" />
+    <list default="true" id="0b166640-f447-419d-a7a9-473d7f05481d" name="Default Changelist" comment="add github action, deploy on pushing in master">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/gatsby.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main/Main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +59,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593088713011</updated>
-      <workItem from="1593088714161" duration="4543000" />
+      <workItem from="1593088714161" duration="5524000" />
+      <workItem from="1593363357872" duration="17000" />
+      <workItem from="1593408874128" duration="1921000" />
+      <workItem from="1593688012310" duration="2021000" />
     </task>
     <task id="LOCAL-00001" summary="add page">
       <created>1593092244698</created>
@@ -62,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593092244698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add nojekyll">
+      <created>1593093284834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593093284834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,16 +86,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add page" />
+    <MESSAGE value="add nojekyll" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nojekyll" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="536" y="87" key="CommitChangelistDialog2" timestamp="1593092244600">
+    <state x="699" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593093266023">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="536" y="87" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1593092244600" />
-    <state x="592" y="261" key="Vcs.Push.Dialog.v2" timestamp="1593092558198">
+    <state x="699" y="341" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1855.1056@65.24.1855.1056" timestamp="1593093266023" />
+    <state x="536" y="87" key="CommitChangelistDialog2" timestamp="1593696478216">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="592" y="261" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1593092558198" />
+    <state x="536" y="87" key="CommitChangelistDialog2/65.24.1855.1056@65.24.1855.1056" timestamp="1593696478216" />
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2" timestamp="1593093285622">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="592" y="261" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1593093285622" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/containers/Main/Main.js</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -41,6 +41,7 @@ jobs:
           key: gatsby-output-cache
 
       - run: yarn install
+      - run: yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

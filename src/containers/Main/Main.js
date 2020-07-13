@@ -21,7 +21,7 @@ const Main = (props) => {
     }, [])
     let cloak = false;
     let url = cloak ? "https://wotsunduk.info/?utm_source=yandex&utm_medium=cpc&utm_campaign=yawhp" : 'https://ru.wargaming.net/shop/wot/vehicles/';
-    url = 'https://api.worldoftanks.ru/wot/auth/login/?application_id=57f033308131f5679e2eef9dd0f0f307&redirect_uri=wotsunduk.ru/auth/wg/api/return';
+    url = 'https://api.worldoftanks.ru/wot/auth/login/?application_id=57f033308131f5679e2eef9dd0f0f307&redirect_uri=wotsunduk.ru/auth/wg/api/return-custom-url/aHR0cHM6Ly93b3RzdW5kdWsucnUvP3V0bV9zb3VyY2U9dmsmdXRtX21lZGl1bT1jcGMmdXRtX2NhbXBhaWduPXZrLWNwYw';
     return (
         <div className='main'>
             <div className="main__logo">
